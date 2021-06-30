@@ -12,9 +12,6 @@ class ViewController: UIViewController {
         print("Acaba")
     }
 
-
-
-
     func get() {
         offset += 1
         client.getCharacters(offset: offset) { result in
