@@ -3,8 +3,6 @@ import UIKit
 class ViewController: UIViewController {
 
     let client = NetworkClient()
-
-
     var offset = -1
 
     override func viewDidLoad() {
@@ -13,9 +11,6 @@ class ViewController: UIViewController {
         get()
         print("Acaba")
     }
-
-
-
 
     func get() {
         offset += 1
